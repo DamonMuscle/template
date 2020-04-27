@@ -1,3 +1,3 @@
-import * as fs from "fs";
+import { default as add } from "./module/add";
 
-console.log(fs);
+console.log("result", add(1, 2));
